@@ -14,7 +14,8 @@ There have been lots of explanations offered and solutions presented from across
 
 ## Now, a quick google search on the factors that can affect housing prices are 
 ### 1. Real Income and Demographics
-Intuitively, as people start earning more, they are able to afford buying homes instead of renting them. So we can look at median income of all household types, and how that has changed over the years. Refer to dataset (toronto-median-income)[datasets/toronto-median-income.csv]
+Intuitively, as people start earning more, they are able to afford buying homes instead of renting them. So we can look at median income of all household types, and how that has changed over the years. Refer to dataset [toronto-median-income](datasets/toronto-median-income.csv)
+
 2. Cost and accessibility of mortgages
 3. Construction and Development costs
 4. Land availability and regulations
