@@ -1,4 +1,4 @@
-# TorontoHousingMarket
+# Toronto Housing Market
 ## Why are houses so expensive in Toronto? 
 
 There has been a lot of public debate recently about housing prices in Toronto. 
@@ -14,10 +14,11 @@ There have been lots of explanations offered and solutions presented from across
 
 ## Now, a quick google search on the factors that can affect housing prices are 
 ### 1. Real Income and Demographics
-Intuitively, as people start earning more, they are able to afford buying homes instead of renting them. So we can look at median income of all household types, and how that has changed over the years. Refer to dataset [toronto-median-income](datasets/toronto-median-income.csv)
+Intuitively, as people start earning more, they are able to afford buying homes instead of renting them. So we can look at median income of all household types, and how that has changed over the years. Refer to dataset [Toronto Median-Income](datasets/toronto-median-income.csv)
 
 ### 2. Cost and accessibility of mortgages
 What is the mortage cost? What is the lending policy? Who gets to access a mortgage? 
+For understanding lending policy, we will look at the lending rates and their trends over time. Refer to dataset [Canada Lending Rates](datasets/canada-lendingrates-2000to2020.xlsx)
 
 ### 3. Construction and Development costs
 What is the land cost at which the house is built? Is it near facilities like subway? What is the cost of development, including taxes? 
