@@ -11,6 +11,8 @@ There have been lots of explanations offered and solutions presented from across
 1. What is the most important cause of high prices? 
 2. Suggest one or two policy proposals, based on the findings above, that are most likely to reduce housing prices by the largest magnitude. 
 
+## Trends of Average Sale Price of houses in Toronto
+Refer to dataset [Toronto Avg Sale Price](datasets/toronto-avgsales-avgsalesprice.csv) and [Toronto MLS House Price Index](datasets/MLS-HousePriceIndex-AllTypes-SeasonallyAdjusted-BenchmarkPrice.xlsx)
 
 ## Now, a quick google search on the factors that can affect housing prices are 
 ### 1. Real Income and Demographics
@@ -28,7 +30,8 @@ What is the land cost at which the house is built? Is it near facilities like su
 
 ### 5. Stock: Supply and Demand
 Is the supply in the market meeting the demands? Is there a difference in both? 
-
+To understand supply, we will look at the number of newly constructed houses
+To understand demand, we will look at population rise ([Population of Toronto](datasets/toronto-population.csv)), 
 
 
 
