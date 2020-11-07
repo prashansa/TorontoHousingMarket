@@ -7,8 +7,8 @@ The cost of living is becoming unaffordable for many Torontonians and home owner
 
 There have been lots of explanations offered and solutions presented from across the political spectrum, yet the data underlying many of these arguments seems surprisingly scarce and the arguments surprisingly non-quantitative. 
 
-## I will try to explore 
-1. What is the most important cause of high prices? 
+## The aim is to 
+1. Understand the most important cause of high prices
 2. Suggest one or two policy proposals, based on the findings above, that are most likely to reduce housing prices by the largest magnitude. 
 
 ## Trends of Average Sale Price of houses in Toronto
