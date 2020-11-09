@@ -3,31 +3,34 @@
 
 There has been a lot of public debate recently about housing prices in Toronto. The cost of living is becoming unaffordable for many Torontonians and home ownership has become unfeasible for a growing percentage of the population. There have been lots of explanations offered and solutions presented from across the political spectrum, yet the data underlying many of these arguments seems surprisingly scarce and the arguments surprisingly non-quantitative. 
 
-## In under 6 hours only, the aim of this analysis is to 
+## In under only 6 hours, the aim of this analysis is to 
 1. Understand the most important cause of high prices
-2. Suggest one or two policy proposals, based on the findings above, that are most likely to reduce housing prices by the largest magnitude. 
+2. Suggest one or two policy proposals, based on the findings above, that are most likely to reduce housing prices by the largest magnitude. (Even if not actually viable in the real world)
 
-## Description of factors and datasets used
+## Description of factors and the corresponding datasets used
 
 ### Trends of Average Sale Price of houses in Toronto
-Refer to dataset [Toronto Avg Sale Price](datasets/toronto-avgsales-avgsalesprice.csv) and [Toronto MLS House Price Index](datasets/MLS-HousePriceIndex-AllTypes-SeasonallyAdjusted-BenchmarkPrice.xlsx)
+What does the current housing market look like? Refer to dataset [Toronto Avg Sale Price](datasets/toronto-avgsales-avgsalesprice.csv) and [Toronto MLS House Price Index](datasets/MLS-HousePriceIndex-AllTypes-SeasonallyAdjusted-BenchmarkPrice.xlsx)
 
-The factors that can affect housing prices are 
-### 1. Real Income and Demographics
+### The factors that I consider for this work are 
+
+
+#### 1. Stock: Supply and Demand
+Is the supply in the market meeting the demands? Is there a difference in both? 
+To understand supply, we will look at the number of newly constructed houses, houses under construction and housing whose construction have started but not completed ([Supply of Houses](datasets/toronto-starts-underconstruction-completions.csv))
+To understand demand, we will look at population rise ([Population of Toronto](datasets/toronto-population.csv)), 
+
+
+#### 2. Real Income and Demographics
 Intuitively, as people start earning more, they are able to afford buying homes instead of renting them. So we can look at median income of all household types, and how that has changed over the years. Refer to dataset [Toronto Median-Income](datasets/toronto-median-income.csv)
+Under demographics, I look at 
 
-### 2. Cost and accessibility of mortgages
+#### 3. Cost and accessibility of mortgages
 What is the mortage cost? What is the lending policy? Who gets to access a mortgage? 
 For understanding lending policy, we will look at the lending rates and their trends over time. Refer to dataset [Canada Lending Rates](datasets/canada-lendingrates-2000to2020.xlsx)
 
-### 3. Construction and Development costs
+#### 4. Construction and Development costs
 What is the land cost at which the house is built? Is it near facilities like subway? What is the cost of development, including taxes? 
-
-### 4. Stock: Supply and Demand
-Is the supply in the market meeting the demands? Is there a difference in both? 
-To understand supply, we will look at the number of newly constructed houses
-To understand demand, we will look at population rise ([Population of Toronto](datasets/toronto-population.csv)), 
-
 
 
 
